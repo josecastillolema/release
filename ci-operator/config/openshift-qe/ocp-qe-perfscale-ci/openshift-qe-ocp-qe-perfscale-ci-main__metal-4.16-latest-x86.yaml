@@ -40,7 +40,7 @@ tests:
     - chain: openshift-qe-data-path-tests
     - chain: openshift-qe-web-burner
     - chain: openshift-qe-node-density-heavy
-  timeout: 7h0m0s
+  timeout: 8h0m0s
 - always_run: false
   as: deploy-6nodes
   cluster: build05
